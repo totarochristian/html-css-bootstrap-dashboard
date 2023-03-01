@@ -8,3 +8,7 @@ header{
 .wrapper{
     margin-top: var(--header-height);
 }
+#sidebar{
+    height: calc(100vh - var(--header-height));
+    width: 180px;
+}
