@@ -12,6 +12,11 @@ header{
     height: calc(100vh - var(--header-height));
     width: 180px;
 }
+main{
+    height: calc(100vh - var(--header-height));
+    flex-grow: 1;
+    overflow-y: auto;
+}
 
 /*TO REMOVE*/
 .debug{
