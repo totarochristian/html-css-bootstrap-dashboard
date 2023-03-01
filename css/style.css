@@ -12,3 +12,8 @@ header{
     height: calc(100vh - var(--header-height));
     width: 180px;
 }
+
+/*TO REMOVE*/
+.debug{
+    border: 2px solid black;
+}
