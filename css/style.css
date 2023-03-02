@@ -11,6 +11,10 @@
 /*****************************************************************/
 header{
     height: var(--header-height);
+    width: 100%;
+}
+header a{
+    text-decoration: none;
 }
 .wrapper{
     margin-top: var(--header-height);
