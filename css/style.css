@@ -4,6 +4,7 @@
 :root{
     --sidebar-bg-color: #051e34;
     --header-height: 70px;
+    --badge-custom: #165bba;
 }
 
 /*****************************************************************/
@@ -39,6 +40,16 @@ th[scope="row"]{
 }
 header form{
     flex-grow: 1;
+}
+.ct-badge-custom{
+    background-color: var(--badge-custom);
+    color: white;
+    border-radius: 30px;
+    font-weight: 300;
+    padding: 5px 10px;
+}
+aside h3{
+    display: inline-block;
 }
 
 /*****************************************************************/
