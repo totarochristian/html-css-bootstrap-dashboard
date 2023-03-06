@@ -22,7 +22,7 @@ header a{
 }
 #sidebar{
     height: 100%;
-    width: 180px;
+    width: 220px;
     background-color: var(--sidebar-bg-color);
     background-image: url("../assets/img/sidebar-bg.png");
 }
