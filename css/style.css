@@ -67,6 +67,7 @@ aside h3{
     }
     table tr td:last-child{
         display: flex;
+        justify-content: center;
         gap: 0.5rem;
     }
     .ct-hide{
