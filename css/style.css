@@ -60,6 +60,14 @@ aside h3{
     aside button{
         margin-top: 0.5rem;
     }
+    aside>div>div{
+        gap: 0.5rem;
+        flex-flow: column-reverse;
+    }
+    aside>div>div>div:last-child>div{
+        flex-flow: column-reverse;
+        gap: 1rem;
+    }
 }
 @media screen and (max-width: 992px){
     #faq-container{
