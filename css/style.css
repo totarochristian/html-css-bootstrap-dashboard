@@ -56,6 +56,11 @@ aside h3{
     background-color: rgba(255, 255, 255, 0.555);
 }
 
+@media screen and (max-width: 768px){
+    aside button{
+        margin-top: 0.5rem;
+    }
+}
 @media screen and (max-width: 992px){
     #faq-container{
         margin-bottom: 1.5rem;
